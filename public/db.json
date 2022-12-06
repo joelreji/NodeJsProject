@@ -8,8 +8,8 @@
     "deposit":300,
     "car_type":"Sedan",
     "availability":true,
-    "Insurance":24,
-    "tax":12.5
+    "Insurance":20,
+    "tax":16
 },
   {
     "id": 2,
@@ -22,7 +22,7 @@
     "car_type": "Sedan",
     "availability": true,
     "Insurance": 24,
-    "tax": 12.5
+    "tax": 18
   },
   {
     "id": 3,
@@ -34,8 +34,8 @@
     "deposit": 300,
     "car_type": "SUV",
     "availability": true,
-    "Insurance": 24,
-    "tax": 12.5
+    "Insurance": 25,
+    "tax": 22
   },
   {
     "id": 4,
@@ -47,8 +47,8 @@
     "deposit": 300,
     "car_type": "SUV",
     "availability": false,
-    "Insurance": 24,
-    "tax": 12.5
+    "Insurance": 25,
+    "tax": 22
 
   },
   {
@@ -61,8 +61,8 @@
     "deposit": 300,
     "car_type": "SUV",
     "availability": true,
-    "Insurance": 24,
-    "tax": 12.5
+    "Insurance": 30,
+    "tax": 24
 
   },
   {
@@ -75,8 +75,8 @@
     "deposit": 300,
     "car_type": "SUV",
     "availability": true,
-    "Insurance": 24,
-    "tax": 12.5
+    "Insurance": 22,
+    "tax": 26
 
   },
   {
@@ -89,8 +89,8 @@
     "deposit": 300,
     "car_type": "SUV",
     "availability": false,
-    "Insurance": 24,
-    "tax": 12.5
+    "Insurance": 30,
+    "tax": 24
 
   },
   {
@@ -100,10 +100,10 @@
     "make": "Ford",
     "model": 2020,
     "price_per_day": 180,
-    "deposit": 300,
+    "deposit": 500,
     "car_type": "Sports Car",
     "availability": true,
-    "Insurance": 24,
-    "tax": 12.5
+    "Insurance": 40,
+    "tax": 36
 
   }]}
