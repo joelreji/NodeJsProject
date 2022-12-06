@@ -1,0 +1,109 @@
+{"cars": [{
+    "id":1,
+	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "car": "Camery",
+    "make": "Toyota",
+    "model": 2019,
+    "price_per_day":80,
+    "deposit":300,
+    "car_type":"Sedan",
+    "availability":true,
+    "Insurance":24,
+    "tax":12.5
+},
+{
+    "id":2,
+	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "car": "Accord",
+    "make": "Honda",
+    "model": 2020,
+    "price_per_day":90,
+    "deposit":300,
+    "car_type":"Sedan",
+    "availability":true,
+    "Insurance":24,
+    "tax":12.5
+},
+{
+    "id":3,
+	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "car": "Rogue",
+    "make": "Nissan",
+    "model": 2020,
+    "price_per_day":110,
+    "deposit":300,
+    "car_type":"SUV",
+    "availability":true,
+    "Insurance":24,
+    "tax":12.5
+},
+{
+    "id":4,
+	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "car": "CX-5",
+    "make": "Mazda",
+    "model": 2022,
+    "price_per_day":110,
+    "deposit":300,
+    "car_type":"SUV",
+    "availability":false,
+    "Insurance":24,
+    "tax":12.5
+
+},
+{
+    "id":5,
+	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "car": "CX-9",
+    "make": "Mazda",
+    "model": 2020,
+    "price_per_day":120,
+    "deposit":300,
+    "car_type":"SUV",
+    "availability":true,
+    "Insurance":24,
+    "tax":12.5
+
+},
+{
+    "id":6,
+	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "car": "Highlander",
+    "make": "Toyota",
+    "model": 2018,
+    "price_per_day":130,
+    "deposit":300,
+    "car_type":"SUV",
+    "availability":true,
+    "Insurance":24,
+    "tax":12.5
+
+},
+{
+    "id":7,
+	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "car": "4Runner",
+    "make": "Toyota",
+    "model": "Honda",
+    "price_per_day":120,
+    "deposit":300,
+    "car_type":"SUV",
+    "availability":false,
+    "Insurance":24,
+    "tax":12.5
+
+},
+{
+    "id":8,
+	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "car": "Mustang",
+    "make": "Ford",
+    "model": 2020,
+    "price_per_day":180,
+    "deposit":300,
+    "car_type":"Sports Car",
+    "availability":true,
+    "Insurance":24,
+    "tax":12.5
+
+}]}

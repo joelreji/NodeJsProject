@@ -1,0 +1,571 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+	<style>
+	:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+    --theme: #3d77f6;
+    --white: #ffffff;
+}
+
+.container {
+    height: 100vh;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+}
+
+    .fa:hover {
+        opacity: 0.5;
+    }
+
+
+
+.fa-linkedin {
+    background: #3B5998;
+    color: black;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: black;
+}
+
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+    background: #3B5998;
+    color: white;
+}
+
+.nav {
+    font-family:'Footlight MT';
+    font-weight:900;
+    letter-spacing:0.1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    width: 1250px;
+    background: var(--theme);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    overflow:hidden;
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.active {
+    background-color: #04AA6D;
+    color: black;
+}
+
+
+.welcome {
+    left:0;
+    bottom:0;
+    border-radius: var(--main-radius);
+    height:565px;
+    width:1250px;
+}
+
+.image{
+    padding-top:30px;
+    opacity:0.4;
+    width:1250px;
+    height:500px;
+    top:30px;
+    position:absolute;
+}
+
+.profile {
+    width:150px;
+    border-radius:50%;
+}
+
+
+.col-1 {
+    bottom: 10px;
+    position: relative;
+    width: 625px;
+    float: left;
+    height: 565px;
+    border-radius: 5px;
+    top: 0;
+}
+
+.col-2 {
+    bottom:0;
+    position: relative;
+    width: 625px;
+    float: left;
+    height: 565px;
+    background-color: var(--theme);
+    line-height:25px;
+}
+
+.center {
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    //text-align: center;
+}
+
+
+#button {
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    background-color:black;
+    color:white;
+}
+
+#button:hover{
+    opacity:0.6;
+}
+
+
+.about{
+    background-color:#afa9fa;
+    opacity:1;
+    padding:80px;
+}
+
+
+.education {
+    left: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    height: 400px;
+    width: 1250px;
+}
+
+.col-3 {
+   // position: relative;
+    width: 450px;
+    float: left;
+    height: 565px;
+    line-height: 25px;
+    padding:80px;
+}
+
+.col-4 {
+   // position: relative;
+    width: 450px;
+    float: left;
+    height: 565px;
+    //z-index: 1010101010;
+    line-height: 25px;
+    padding:80px;
+}
+
+.projects {
+    border-radius: var(--main-radius);
+    padding: 80px;
+    height: 800px;
+    width: 1125px;
+}
+
+#content {
+    margin: 40px;
+}
+
+.skills {
+    border-radius: var(--main-radius);
+    padding: 40px;
+    height: 500px;
+    width: 1125px;
+    margin: 0;
+}
+
+
+.rating {
+    font-size: 20px;
+}
+
+.clicked {
+    color: rgb(138, 190, 32);
+}
+
+.col-5 {
+    // position: relative;
+    width: 400px;
+    float: left;
+    height: 400px;
+    //z-index: 1010101010;
+    line-height: 20px;
+    padding: 80px;
+}
+
+.col-6 {
+    //position: relative;
+    width: 400px;
+    float: left;
+    height: 400px;
+    //z-index: 1010101010;
+    line-height: 20px;
+    padding: 80px;
+}
+
+.interests {
+    border-radius: var(--main-radius);
+    padding: 80px;
+    height:180px;
+    width: 1125px;
+    margin: 0;
+}
+
+footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:1250px;
+    background: var(--theme);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+
+
+.footer {
+    font-family: 'Footlight MT';
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+    text-decoration-color: white;
+    background: var(--theme);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-left{
+    color:white;
+}
+    .footer .footer-icons {
+        margin-right: 0;
+    }
+
+
+        .footer .footer-icons .fa:hover {
+            color: white;
+            transition: color 0.3s ease-in;
+        }
+
+
+h {
+    font-weight: 800;
+}
+
+h1 {
+    font-family: Gallendo;
+}
+
+h2 {
+    font-family: 'b Besok Prei';
+    font-size: 35px;
+    font-weight: 400;
+}
+
+p {
+    text-align: center;
+    font-family: 'Footlight MT';
+    font-weight: 600;
+}
+
+    p::first-line {
+        font-style: italic;
+    }
+
+h3 {
+    font-family: Gabriola;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing:0.1rem;
+}
+
+p1 {
+    font-family: 'Footlight MT';
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    top: 0;
+    text-align: left;
+    line-height: 50px;
+    color: black;
+    font-weight: 800;
+}
+
+p2 {
+    top: 0;
+    text-align: left;
+    line-height: 50px;
+    font-family: 'Footlight MT';
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-weight: 800;
+}
+
+p3 {
+    top: 0;
+    text-align: left;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: 'Footlight MT';
+    color: black;
+    font-weight: 400;
+}
+
+	</style>
+</head>
+<body>
+    <nav class="nav">
+        <a class="active" href="#about">About</a>
+        <a href="#education">Education & Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#interests">Interests</a>
+</nav>
+    <div class="container">
+
+        <main class="welcome">
+            <div class="col-1">
+                <div class="center">
+                    <h1>Hello, I'm<br /></h1>
+                    <h2>VENKATA  RAMAKRISHNA  CHELPURI</h2>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="center">
+                    <p>
+                        <img class="profile" src="profile.jpg" alt="Profile Picture" /><br />
+                        <h>VENKATA  RAMAKRISHNA  CHELPURI</h><br /><br />
+                        Graduate student at University of New Haven<br />
+                        Masters of Science in Computer Science<br />
+                        New Haven, Connecticut<br />
+                        <br />
+                        <br />
+                        <br />
+                        vchel2@unh.newhaven.edu<br />
+                        +1 (475) 300-8042<br />
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-github"></a>
+                        <br />
+                        <button type="button" id="button">Download CV</button>
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <div class="about">
+            <div id="text">
+                <h3>ABOUT</h3>
+                <p3>
+                    To start, I've always enjoyed writing code and I loved manipulating it to get the desired output,
+                    All the time I am obsessed with coding and its utilization to overcome the greatest practical problems
+                    in the real world, Out of all the resources we have I prefer to Java since I feel it is the comfortable
+                    way of solving the problems because of its platform free nature. I believe in the power of programming
+                    to transform and improve the lives of people around the world.
+                </p3>
+            </div>
+        </div>
+
+        <div class="education">
+            <div class="col-3">
+                <h3>EDUCATION</h3>
+                <div class="center">
+                    <p1>University of New Haven&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dec'2022</p1><br />
+                     <p2>&nbsp;&nbsp;Masters of Science in Computer Science</p2><br /><br /><br />
+
+                    <p1>SRM University&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May'2018</p1><br />
+                    <p2>&nbsp;Bachelors degree in Computer Science and Engineering</p2>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <h3>EXPERIENCE</h3>
+                <div class="center">
+                    <p1>HighRadius&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oct'2018-Dec'2020</p1><br />
+                    <p2>Associate Quality Assurance Engineer<br /><br /></p2>
+                     <p3>   
+                        <ul>
+                            <li>
+                                Having an overall experience of 2 years in various roles involving
+                                testing and analysis of backend application.
+                            </li>
+                            <li>Having hands-on experience in SQL</li>
+                            <li>
+                                Involved in end-to-end support life cycle, starting from kick-off meetings,
+                                knowledge transition, documentation, effort estimation and coordinating
+                                with team mates to quality deliverables.
+                            </li>
+                        </ul>
+                    </p3>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects">
+            <h3>PROJECTS</h3>
+            <div id="content">
+                <p3>
+                    <p1>The Campaign</p1><br />
+                        &nbsp;&nbsp;&nbsp;A Python based game project built by team of two. The campaign is an island having two diverse kinds of snakes
+                        one from each kind stood up for an election, the user being a snake has to move and collect other snakes to count
+                        the vote<br /><br />
+
+                    <p1>EggHunt</p1><br />
+                        &nbsp;&nbsp;&nbsp;JavaFx based project, Egghunt has a chick that lays eggs in equal intervals of time and the user being a snake has
+                        to move the mouse in order to eat the eggs and score.<br /><br />
+                    
+                    <p1>Grocery Chain Store Network</p1><br />
+                        &nbsp;&nbsp;&nbsp;Designed a network for a grocery chain store which keeps track of products provide online shopping for customers,
+                        a server that has all the information about the inventory and connection between database and server.<br />
+                </p3>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h3>SKILLS</h3>
+            <div class="col-5">
+                <h1>Java</h1>
+                <div class="rating">
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+
+                <h1>HTML</h1>
+                <div class="rating">
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+
+                <h1>CSS</h1>
+                <div class="rating">
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+
+                <h1>JavaScript</h1>
+                <div class="rating">
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <h1>SQL</h1>
+                <div class="rating">
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                </div>
+
+                <h1>Manual Testing</h1>
+                <div class="rating">
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+
+                <h1>Selenium</h1>
+                <div class="rating">
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+
+                <h1>Python</h1>
+                <div class="rating">
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star clicked"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="interests">
+            <h3>INTERESTS</h3>
+            <p3>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Love to play Cricket and Badminton
+            </p3>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            vchel2@unh.newhaven.edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            +1 (475) 300-8042
+        </div>
+        <div class="footer-icons">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-github"></a>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>

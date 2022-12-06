@@ -1,0 +1,181 @@
+Core java
+
+Advanced Java ---->Technology
+ a)Jdbc
+ b)Servlets
+ c)Jsp
+
+Framewoks:---
+---------------
+1)Spring 
+
+   a)Spring Core(IOC)
+   b)Spring AOP
+   c)Sping MVC
+   d)Spring DAM
+     a)Spring jdbc
+     b)Spring Orm(Hibenate)
+   e)Spring Test
+   f)Spring JEE
+
+2)Hibernate
+
+3)Spring Boot
+
+  a)Spring Boot with Data JPA
+  b)Spring with Restful services
+  c)Spring Boot
+
+4)Microservices
+
+Realtime projects
+ 1)Airlines domain
+ 2)Healthcare domain
+
+UI:---
+-----------
+HTML
+
+CSS
+
+JAVA SCRIPT
+
+ANGULAR11
+
+AWS
+========================================================================
+Core java:----
+---------------------
+2 types of applications are there
+
+1)Static applications
+
+2)Distributed applications
+
+1)Static applications:----
+-------------------------------
+Aim is result can not be sharable, result can be fixed
+
+ex:---cmd,sqlplus,cd
+
+c,alp,cobal
+
+2)Distributed apps:----
+----------------------------
+Aim is result can be sharable in accross the global
+
+ex:---www
+
+https://www.navasoftware.com; https://www.triniti.com
+
+java,.net
+
+--->Java is a language/technology, used for developing the distributed applications, developed by sunmicro system(oracle corp)
+
+IT industry supports 2 types of languages:----
+---------------------------------------------
+1)POP:---Procedural Oriented programming Languages:--------
+------------------------------------------------------------------
+Any language supports pure coding
+
+c,cobal
+
+
+2)OOP:---Object Oriented Programming Languages:-------
+---------------------------------------------------------
+Any language supports Pure coding+ Some oops principles
+
+java,.net
+
+oops principles:---- 7
+------------------------
+1)Class
+
+2)Object
+
+3)Polymorphisam
+
+4)Inheritance
+
+5)Data Abstraction
+
+6)Data Encapsulation
+
+7)Data Hiding.
+----------------------------------------------------------
+1)Class:----
+-----------------
+class is a collection of variables and methods.
+
+int:---reprasents number(0,1,2,3,4,5,6,7,8------infinity)
+
+float:---reprasents decimals(2.34,4.38,8.32,10.34----infinity)
+
+variables :---
+-------------------
+variable is a container, which contains some number...and varying or chainging that number in according to casses
+
+case:1:---
+---------------
+int a=200
+
+case:2:---
+---------------- 'a'----->is a variable
+int a=400
+
+case:3:----
+------------------
+int a=800
+
+methods:----
+-----------------
+Method contains some coding or method tells behaviour
+
+synatx:---
+--------------
+<datatype/return type><methodname>()
+{
+ //coding
+}
+
+ex:----
+----------------
+void sum()
+{
+ //coding
+}
+
+class syntax:---
+--------------------
+class <classname>
+{
+ //variables
+ //methods
+}
+
+ex:---
+--------------
+class Test
+{
+ int a=200,b=800,c;//variables
+
+ void sum()
+ {
+   c=a+b;
+   System.out.println("sum="+c);
+ }
+}
+
+Note:1:---
+-----------------
+class is just like a plan
+
+Note:2:---
+------------------
+class does not occupied memory space.
+
+
+2)Object:---
+---------------
+
+
