@@ -11,99 +11,99 @@
     "Insurance":24,
     "tax":12.5
 },
-{
-    "id":2,
-	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+  {
+    "id": 2,
+    "image": "https://www.motortrend.com/uploads/2021/12/2022-honda-accord-sport-2-0t-15.jpg",
     "car": "Accord",
     "make": "Honda",
     "model": 2020,
-    "price_per_day":90,
-    "deposit":300,
-    "car_type":"Sedan",
-    "availability":true,
-    "Insurance":24,
-    "tax":12.5
-},
-{
-    "id":3,
-	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "price_per_day": 90,
+    "deposit": 300,
+    "car_type": "Sedan",
+    "availability": true,
+    "Insurance": 24,
+    "tax": 12.5
+  },
+  {
+    "id": 3,
+    "image": "https://www.kbb.com/wp-content/uploads/2020/06/2021-nissan-rogue-red-front-3qtr.jpg",
     "car": "Rogue",
     "make": "Nissan",
     "model": 2020,
-    "price_per_day":110,
-    "deposit":300,
-    "car_type":"SUV",
-    "availability":true,
-    "Insurance":24,
-    "tax":12.5
-},
-{
-    "id":4,
-	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+    "price_per_day": 110,
+    "deposit": 300,
+    "car_type": "SUV",
+    "availability": true,
+    "Insurance": 24,
+    "tax": 12.5
+  },
+  {
+    "id": 4,
+    "image": "https://npr.brightspotcdn.com/dims4/default/17fa198/2147483647/strip/true/crop/3366x1893+0+187/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4a%2F86%2Fa719d1ab47cbbf6b2921f785a575%2Fmazda2.jpg",
     "car": "CX-5",
     "make": "Mazda",
     "model": 2022,
-    "price_per_day":110,
-    "deposit":300,
-    "car_type":"SUV",
-    "availability":false,
-    "Insurance":24,
-    "tax":12.5
+    "price_per_day": 110,
+    "deposit": 300,
+    "car_type": "SUV",
+    "availability": false,
+    "Insurance": 24,
+    "tax": 12.5
 
-},
-{
-    "id":5,
-	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+  },
+  {
+    "id": 5,
+    "image": "https://www.motortrend.com/uploads/2022/09/2023-Mazda-CX-9-Signature-AWD-front-three-quarter-view-31.jpg",
     "car": "CX-9",
     "make": "Mazda",
     "model": 2020,
-    "price_per_day":120,
-    "deposit":300,
-    "car_type":"SUV",
-    "availability":true,
-    "Insurance":24,
-    "tax":12.5
+    "price_per_day": 120,
+    "deposit": 300,
+    "car_type": "SUV",
+    "availability": true,
+    "Insurance": 24,
+    "tax": 12.5
 
-},
-{
-    "id":6,
-	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+  },
+  {
+    "id": 6,
+    "image": "https://di-uploads-pod6.dealerinspire.com/mariettatoyota/uploads/2022/02/2022-Toyota-Highlander.jpeg",
     "car": "Highlander",
     "make": "Toyota",
     "model": 2018,
-    "price_per_day":130,
-    "deposit":300,
-    "car_type":"SUV",
-    "availability":true,
-    "Insurance":24,
-    "tax":12.5
+    "price_per_day": 130,
+    "deposit": 300,
+    "car_type": "SUV",
+    "availability": true,
+    "Insurance": 24,
+    "tax": 12.5
 
-},
-{
-    "id":7,
-	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+  },
+  {
+    "id": 7,
+    "image": "https://www.motortrend.com/uploads/sites/5/2019/07/2020-Toyota-4Runner-TRD-Pro-front-three-quarter-13.jpg",
     "car": "4Runner",
     "make": "Toyota",
     "model": "Honda",
-    "price_per_day":120,
-    "deposit":300,
-    "car_type":"SUV",
-    "availability":false,
-    "Insurance":24,
-    "tax":12.5
+    "price_per_day": 120,
+    "deposit": 300,
+    "car_type": "SUV",
+    "availability": false,
+    "Insurance": 24,
+    "tax": 12.5
 
-},
-{
-    "id":8,
-	"image":"https://images.cars.com/cldstatic/wp-content/uploads/toyota-camry-trd-2021-02-exterior--profile--white.jpg",
+  },
+  {
+    "id": 8,
+    "image": "https://www.motortrend.com/uploads/2021/10/2022-Ford-Mustang-GT-California-Special_02-1.jpg",
     "car": "Mustang",
     "make": "Ford",
     "model": 2020,
-    "price_per_day":180,
-    "deposit":300,
-    "car_type":"Sports Car",
-    "availability":true,
-    "Insurance":24,
-    "tax":12.5
+    "price_per_day": 180,
+    "deposit": 300,
+    "car_type": "Sports Car",
+    "availability": true,
+    "Insurance": 24,
+    "tax": 12.5
 
-}]}
+  }]}
